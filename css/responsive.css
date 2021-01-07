@@ -1,0 +1,343 @@
+/* 23. Responsive Styles 
+------------------------------------- */
+@media only screen and (max-width: 1920px) {
+
+}
+@media only screen and (max-width: 1400px){
+	
+}
+@media only screen and (max-width: 991px) {
+	
+
+	/* -- Style Custom -- */
+
+	/* --- header section ---*/
+	.mainmenu .slicknav_menu {
+	    display: inherit;
+	}
+	.menu ul.navigation {
+	    display: none;
+	}
+	/* -- about section -- */
+	.about_details {
+		margin-bottom: 60px;
+	}
+	/* chef slider -- */
+	.chef_slider_content {
+		padding: 10px 0px;
+	}
+	.chef_slider_content .chef_name h3 {
+		margin-left: 0px;
+	}
+	.chef_slider_content .chef_details::before {
+		left: 0px;
+	}
+	.chef_slider_content .chef_details::after {
+		bottom: 0px;
+	}
+	.chef_slider_content .chef_details p {
+		margin-left: 20px;
+	}
+	/* --- Menu Page --- */
+	.menu_content .menu_title_price {
+		margin-bottom: 10px;
+	}
+	.menu_content .menu_title_price h4 {
+		display: inherit;
+	}
+	.menu_content .menu_title_price span {
+		float: inherit;
+	}
+	/* --- Delicious section --- */
+	.delicious_item .delicious-img img{
+		width: 200px;
+		height: 200px;
+	}
+	/* --- menu page --- */
+	.events_month_content {
+		margin-bottom: 30px;
+	}
+	/* --- Single Page --- */
+	.leave_comment_section{
+		margin-bottom: 30px;
+	}
+	/* ---- Contact Page ---- */
+	.contact_form{
+		margin-bottom: 30px;
+	}
+	/* --- About Page --- */
+	.our_history{
+		text-align: center;
+	}
+	.our_thumbnail {
+		margin-top: 30px;
+	}
+	.chef_box{ margin-bottom: 30px; }
+	/* --- Cart Page --- */
+	.cart_table table {
+		table-layout: inherit;
+	}
+	.cart_table td img {
+		margin-left: 25%;
+	}
+	.cart_button .btn-cart:first-child{
+		margin-bottom: 20px;
+	}
+
+}
+
+@media only screen and (max-width: 800px) {
+	body {
+		text-align:inherit;
+	}
+	
+	/* -- Style Custom -- */
+	/* -- slick nav -- */
+	.mainmenu .slicknav_nav {
+		top: 110%;
+		width: 133%;
+		left: -33%;
+	}
+	
+}
+@media only screen and (max-width:767px) {
+	body {
+		text-align:inherit;
+
+	}
+	.container{
+		width:80%;
+		margin:0px auto;
+	}
+	
+	
+	/* -- Style Custom -- */
+	
+}
+	
+@media only screen and (max-width: 480px) {
+	body {
+		text-align:inherit;
+	}
+	h1 {
+		font-size: 45px;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	h3 {
+		font-size: 15px;
+	}
+
+	.header_logo{
+		width: 100%;
+		padding: 10px 0px;
+	}
+	.header_right_side {
+		float: inline-start;
+		padding-top: 0px;
+		padding-bottom: 10px;
+		margin-left: 35%;
+	}
+	.cart_section {
+		margin-top: 5px;
+	}
+	/* -- slick nav -- */
+	.mainmenu .slicknav_menu .slicknav_icon {
+		margin-top: 0px;
+	}
+	.mainmenu .slicknav_menu {
+		padding: 0px;	
+	}
+	.mainmenu .slicknav_btn {
+		margin: 0px;
+	}
+	.mainmenu .slicknav_nav {
+		top: 3830%;
+		width: 118%;
+		left: -27px;
+	}
+
+	/* -- Chef Slider --*/
+	.slider_thumbnail {
+		width: 100%;
+	}
+	/*-- footer --*/
+	.footer_top .box {
+		display: inherit;
+	}
+	.footer_top .box .box-row {
+		display: inherit;
+	}
+	.footer_top .box .box-row .box-cell {
+		display: inherit;
+	}
+	.footer_top .box .box-row .box_left,
+	.footer_top .box .box-row .box_right {
+		width: 100%;
+	}
+	.box-cell .address_details ul li {
+		font-size: 15px;
+	}
+	.box-cell .footer_header p {
+		font-size: 20px;
+	}
+	/* ----------- Menu Page ----------*/
+	.tab_menu::before {
+		display: none;
+	}
+	.menu_thumbnail, .menu_content {
+		display: inherit;
+	}
+	.menu_thumbnail {
+		width: 100%;
+	}
+	.menu_thumbnail img {
+		width: 100%;
+		height: auto;
+	}
+	.menu_content {
+		width: 100%;
+	}
+	.menu_content .menu_title_price,
+	.menu_content .menucard_content{
+		margin-left: 0px;
+	}
+	.menu_content .menu_title_price h4 {
+		margin: 10px 0px;
+	}
+	.menu_content .menucard_content span {
+		margin-top: 10px;
+	}
+	/* --- tab menu ----*/
+	.nav-justified > li > a {
+		margin-bottom: 20px;
+	}
+	.nav-justified > li:last-child > a{
+		margin-bottom: 0px;
+	}
+	.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+		padding: 20px;
+		border: 1px solid #d81c46;
+	}
+	/*---- Delisious Section --- */
+	.delicious_warp .delicious_item:nth-child(2n+1) .delicious-img,
+	.delicious_warp .delicious_item:nth-child(2n) .delicious-img {
+		width: 100%;
+		float: inherit;
+	}
+	.delicious_item .delicious-img img {
+		width: 100%;
+		height: auto;
+	}
+	.delicious_warp .delicious_item:nth-child(2n+1) .delicious-content,
+	.delicious_warp .delicious_item:nth-child(2n) .delicious-content {
+		width: 100%;
+		float: inherit;
+	}
+	.delicious-content .delicious_menu_title span {
+		float: inherit;
+	}
+	.delicious-content .delicious_menu_title h4 {
+		margin: 20px 0px;
+	}
+	/* --- events page --- */
+	.featured_event_item {
+		display: inherit;
+	}
+	.featured_thumbnail, .featured_content {
+		display: inherit;
+	}
+	.featured_thumbnail {
+		width: 100%;
+	}
+	.featured_thumbnail img {
+		width: 100%;
+		height: 260px;
+	}
+	.featured_content {
+		width: 100%;
+		border: 1px solid #ACACAC;
+		height: auto;
+	}
+	.pagination a:nth-child(3),
+	.pagination a:nth-child(4),
+	.pagination a:nth-child(5) {
+		display: none;
+	}
+	.widget_part .widget_content ul li {
+		width: 100%;
+	}
+	.widget_event {
+		display: inherit;
+	}
+	.widget_thumnail, .widget_event_details {
+		display: inherit;
+	}
+	.widget_thumnail {
+		width: 100%;
+	}
+	.widget_event_details {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.widget_event_details h5 {
+		margin-left: 0px;
+	}
+	.widget_event_details p {
+		margin-left: 0px;
+	}
+	/* --- Single Page --- */
+	.single_page_share {
+		display: inherit;
+	}
+	.share_header, .single_page_nav {
+		display: inherit;
+		text-align: center;
+	}
+	.single_page_nav {
+		float: inherit;
+	}
+	.prev_button a, .next_button a {
+		font-size: 17px;
+	}
+	.single_comment_section .comment_part .comment_warp:nth-child(2n+1) {
+		margin-left: 0px;
+	}
+	.related_box {
+		margin-bottom: 30px;
+	}
+	/* --- About Page --- */
+	.header_title p {
+		width: 100%;
+	}
+	.about_history_thubnail {
+		margin-bottom: 30px;
+	}
+	.clinet_slider_active .owl-stage-outer {
+		width: 100%;
+	}
+	.client_single {
+		width: 100%;
+	}
+	/* --- Cart Page --- */
+	.cart_button{
+		margin-top: 30px;
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 360px) {
+	body {
+		text-align:inherit;
+	}
+	/* -- Style Custom -- */
+	
+}
+@media only screen and (max-width: 320px) {
+	body {
+		text-align:inherit;
+	}
+		
+	/* -- Style Custom -- */
+	
+}
